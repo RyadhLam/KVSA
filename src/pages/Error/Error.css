@@ -1,0 +1,47 @@
+.PageIntrouvable {
+    color: #FF6060;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PageIntrouvable h1 {
+    display: flex;
+    font-weight: 700;
+    font-size: 288px;
+    margin: 0px;
+    height: 40vh;
+    max-width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.PageIntrouvable h4 {
+    font-weight: 500;
+    font-size: 36px;
+    height: 15vh;
+    max-width: 100%;
+}
+
+.PageIntrouvable a {
+    font-weight: 500;
+    font-size: 18px;
+    height: 15vh;
+    color: #FF6060;
+    max-width: 100%;
+}
+
+@media (max-width : 400px) {
+    .PageIntrouvable h1 {
+        font-size: 96px;
+        height: 30vh;
+    }
+
+    .PageIntrouvable h4 {
+        width: 70%;
+        font-size: 18px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    height: 68px;
+    flex-direction: row;
+    margin: 30px auto 0;
+    align-items: center;
+}
+
+.header svg {
+    width: 210px;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width : 400px) {
+    .header {
+        margin: 0;
+
+    }
+
+    .header svg {
+        width: 145px;
+        padding-left: 20px;
+    }
+}
